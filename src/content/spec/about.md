@@ -1,49 +1,53 @@
+# 关于我
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+**欢迎来到我的SuzumeのBlog～喵**
+
+# 自我介绍
+
+## 大家好，我是suzume，是来自中国的绿色山葵猫猫
+
+- 害怕出门，喜欢在家穿着连帽衫并且戴着帽子
+- 身高1600mm  
+- 喜欢美食，游戏和电影
+- 平常在中国的弹幕网站bilibili活动，在中国互联网
+- 以表情包身份为人所知【？】
+- 我的绘画tag是“#撕梓咩”
+
+## 本Blog的介绍
+
+本站基于 **Astro** 框架构建,采用现代化的设计理念,模板来自Mizuki提供：
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
+### ✨ 功能特性
 
-## 🌟 Theme Features
+#### 🎨 设计与界面
+- [x] 基于 [Astro](https://astro.build) 和 [Tailwind CSS](https://tailwindcss.com) 构建
+- [x] 使用 [Swup](https://swup.js.org/) 实现流畅的动画和页面过渡
+- [x] 明暗主题切换，支持系统偏好检测
+- [x] 可自定义主题色彩和动态横幅轮播
+- [x] 全屏背景图片，支持轮播、透明度和模糊效果
+- [x] 全设备响应式设计
+- [x] 使用 JetBrains Mono 字体的优美排版
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+#### 🔍 内容与搜索
+- [x] 基于 [Pagefind](https://pagefind.app/) 的高级搜索功能
+- [x] [增强的 Markdown 功能](#-markdown-扩展语法)，支持语法高亮
+- [x] 交互式目录，支持自动滚动
+- [x] RSS 订阅生成
+- [x] 阅读时间估算
+- [x] 文章分类和标签系统
+#### 📱 特色页面
+- [x] **追番页面** - 追踪动画观看进度和评分
+- [x] **友链页面** - 精美卡片展示朋友网站
+- [x] **日记页面** - 分享生活瞬间，类似社交媒体
+- [x] **归档页面** - 有序的文章时间线视图
+- [x] **关于页面** - 可自定义的个人介绍
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+#### 🛠 技术特性
+- [x] **增强代码块**，基于 [Expressive Code](https://expressive-code.com/)
+- [x] **数学公式支持**，KaTeX 渲染
+- [x] **图片优化**，PhotoSwipe 画廊集成
+- [x] **SEO 优化**，包含站点地图和元标签
+- [x] **性能优化**，懒加载和缓存机制
+- [x] **评论系统**，支持 Twikoo 集成
 
-
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
-
----
-
-*Built with ❤️ using Astro and inspired by modern web design principles.*
