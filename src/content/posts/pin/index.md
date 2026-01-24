@@ -1,7 +1,7 @@
 ---
 title: 加群向导
 published: 2026-01-24
-pinned: ture
+pinned: true
 description: 关于如何添加Suzume聊天群聊.
 tags: [TG, 聊天, Markdown]
 category: 加群向导
