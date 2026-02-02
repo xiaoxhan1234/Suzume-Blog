@@ -9,7 +9,7 @@ licenseName: ""
 author: Suzume
 sourceLink: ""
 draft: false
-comment: false
+comment: true
 image: ./Suzume_封面.png
 ---
 
