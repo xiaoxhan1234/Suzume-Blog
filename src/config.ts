@@ -295,7 +295,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 					name: "统计",
-					url: "https://cloud.umami.is/share/Da4GLnhCTeTBEaVR",
+					url: "https://cloud.umami.is/analytics/eu/share/Da4GLnhCTeTBEaVR",
 					external: true,
 					icon: "fa6-brands:jsfiddle",
 			},
