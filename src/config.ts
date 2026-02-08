@@ -295,7 +295,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 					name: "统计",
-					url: "https://cloud.umami.is/analytics/eu/share/Da4GLnhCTeTBEaVR",
+					url: "https://cloud.umami.is/share/Da4GLnhCTeTBEaVR",
 					external: true,
 					icon: "fa6-brands:jsfiddle",
 			},
@@ -625,9 +625,9 @@ export const widgetConfigs = {
 
 export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "api_qoL879cfNIEUCZV8pAaVh4t8GPtminnr", // API密钥优先从环境变量读取，否则使用配置文件中的值
-	baseUrl: "https://api.umami.is", // Umami Cloud API地址
+	apiKey: import.meta.env.UMAMI_API_KEY || "api_9QaVeJgD+HejrSELSgooMLRxaDEyqH+b2IfhJQ847XdkLhx2J3D1/wjQmobc1phVNYdda/0paYjTSmOqWidUDraJoVRnJrvULyo7LxVy1yOAfVoRTAu0V4kDPM9XtHSroSBsItYHRdI7yg9FzqZGbMNMNu96172qdsQenQEMizInv0TwgnrIm440VrsgUNOJS8PhE5lwGqIrhVvttYDxK39DzJJlnWUzI4kw+9OeKQZgvoHCnGXFBy1HQ3+2IALRkNOHOL4OjnB8sVmy7yjkdjPjoYBllUs1PjFq4HLeNdtdcrhvuojNNP+qy6Us7o6LhMF/QhH5rkAJJrM13N0SjpYXiA1L/v0CocG0JRql6lV+kbSnLmpU1JocyeA=", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	baseUrl: "https://umami.zako.wf/api", // Umami Cloud API地址
 	scripts: `
-<script defer src="https://cloud.umami.is/script.js" data-website-id="ce48f529-9175-489e-8152-a384f819c54c"></script>
+<script defer src="https://umami.zako.wf/script.js" data-website-id="f2230c55-fcea-4ed3-9b3b-db55908f38b4"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
