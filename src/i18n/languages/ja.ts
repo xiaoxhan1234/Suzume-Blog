@@ -74,13 +74,20 @@ export const ja: Translation = {
 	[Key.animeEmpty]: "アニメのデータはありません",
 	[Key.animeEmptyBangumi]:
 		"Bangumiの構成またはネットワークを接続を確認してください",
+	[Key.animeEmptyBilibili]:
+		"Bilibiliの構成またはネットワーク接続を確認してください",
 	[Key.animeEmptyLocal]:
 		"src/data/anime.tsのファイルにアニメの情報を追加してください",
+	[Key.animeConfigBilibili]:
+		"src/config.tsファイルでBilibili vmidを設定してください",
+	[Key.animeConfigBangumi]:
+		"src/config.tsファイルでBangumi userIdを設定してください",
 
 	// 日記ページ
 	[Key.diarySubtitle]: "いつでも、どこでも生活を共有",
-	[Key.diaryCount]: "件の日記のエントリー",
-	[Key.diaryReply]: "返信",
+	[Key.diaryNoResults]: "一致する日記がありません",
+	[Key.diaryCount]: "件の日記",
+
 	[Key.diaryTips]: "最新の30件の日記のエントリーのみを表示",
 	[Key.diaryMinutesAgo]: "分前",
 	[Key.diaryHoursAgo]: "時間前",
@@ -132,6 +139,8 @@ export const ja: Translation = {
 	[Key.devicesViewDetails]: "詳細を表示",
 	[Key.albumsPhotoCount]: "件の写真",
 	[Key.albumsPhotosCount]: "件の写真",
+	[Key.albumsFilterAll]: "すべて",
+	[Key.albumsNoResults]: "一致するアルバムがありません",
 
 	// プロジェクトページ
 	[Key.projects]: "プロジェクト",
@@ -266,6 +275,7 @@ export const ja: Translation = {
 		"このコンテンツはパスワードで保護されています",
 	[Key.passwordProtectedDescription]:
 		"保護されたコンテンツを表示するにはパスワードを入力してください。",
+	[Key.postEncrypted]: "暗号化",
 	[Key.passwordPlaceholder]: "パスワードを入力",
 	[Key.passwordUnlock]: "ロックを解除",
 	[Key.passwordUnlocking]: "ロックを解除中...",
@@ -282,6 +292,7 @@ export const ja: Translation = {
 	[Key.syntaxHighlightFailed]: "構文の強調表示が失敗しました:",
 	[Key.autoSyntaxHighlightFailed]: "自動構文強調表示が失敗しました:",
 	[Key.decryptionError]: "復号中にエラーが発生しました:",
+	[Key.passwordHint]: "ヒント",
 
 	// 最終更新時間カード
 	[Key.lastModifiedPrefix]: "最終編集からの時間: ",
@@ -342,7 +353,17 @@ export const ja: Translation = {
 	[Key.profileStatsVisits]: "訪問",
 	[Key.profileStatsUnavailable]: "統計は利用できません",
 
+	// ページビューの統計
+	[Key.pageViewsLoading]: "統計を読み込み中...",
+	[Key.pageViewsUnavailable]: "統計は利用できません",
+
 	// レイアウト切り替えボタン
 	[Key.switchToGridMode]: "グリッド表示に切り替え",
 	[Key.switchToListMode]: "リスト表示に切り替え",
+
+	// 関連記事とランダム記事
+	[Key.relatedPosts]: "関連記事",
+	[Key.randomPosts]: "ランダム記事",
+	[Key.smartRecommend]: "スマート",
+	[Key.randomRecommend]: "ランダム",
 };

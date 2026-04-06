@@ -1,10 +1,10 @@
 {
-	"title": "默认相册",
+	"title": "Some lovely pictures",
 	"hidden": false,
-	"description": "世界很大,你要去探索它.",
-	"date": "2025-12-27",
+	"description": "The world is vast, and you have to go explore it.",
+	"date": "2025-08-01",
 	"location": "Bilibili",
-	"tags": ["Kawai", "可爱的", "萌"],
+	"tags": ["Kawai", "Cute", "Moe"],
 	"layout": "masonry",
 	"columns": 3
 }
