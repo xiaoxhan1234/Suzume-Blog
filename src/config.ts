@@ -137,6 +137,9 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/6.webp",
 				"/assets/mobile-banner/7.webp",
 				"/assets/mobile-banner/8.webp",
+				"/assets/mobile-banner/9.webp",
+				"/assets/mobile-banner/10.webp",
+				"/assets/mobile-banner/11.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -258,6 +261,9 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/mobile-banner/6.webp",
 			"/assets/mobile-banner/7.webp",
 			"/assets/mobile-banner/8.webp",
+			"/assets/mobile-banner/9.webp",
+			"/assets/mobile-banner/10.webp",
+			"/assets/mobile-banner/11.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
